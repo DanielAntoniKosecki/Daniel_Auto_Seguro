@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".ClienteActivity">
+
+    <ImageView
+        android:id="@+id/cliente_imagem"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="@dimen/default_margin_start"
+        android:layout_marginLeft="@dimen/default_margin_start"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/cliente"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/clienteid"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="@dimen/default_margin_end"
+        android:layout_marginEnd="@dimen/default_margin_end"
+        android:background="@drawable/fundo_caixas"
+        android:textSize="15dp"
+        android:text="DADOS SOBRE CLIENTE"
+        android:textColor="@android:color/background_light"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@id/cliente_imagem"
+        app:layout_constraintStart_toEndOf="@id/cliente_imagem"
+        app:layout_constraintTop_toTopOf="@id/cliente_imagem"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/button_cliente_enviarid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/fundo_caixas"
+        android:text="Enviar"
+        android:textSize="15dp"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintRight_toRightOf="@id/clienteid"
+        app:layout_constraintEnd_toEndOf="@id/clienteid"
+        app:layout_constraintTop_toBottomOf="@id/clienteid" />
+
+    <EditText
+        android:id="@+id/cliente_nome_id"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:textAlignment="center"
+        android:hint="NOME*"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@id/clienteid"
+        app:layout_constraintStart_toStartOf="@id/cliente_imagem"
+        app:layout_constraintTop_toBottomOf="@+id/button_cliente_enviarid" />
+
+    <EditText
+        android:id="@+id/cliente_idade_id"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:textAlignment="center"
+        android:maxLength="3"
+        android:hint="IDADE*"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/clienteid"
+        app:layout_constraintStart_toStartOf="@id/cliente_imagem"
+        app:layout_constraintTop_toBottomOf="@id/cliente_nome_id"/>
+
+    <EditText
+        android:id="@+id/cliente_rg_id"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:textAlignment="center"
+        android:maxLength="9"
+        android:hint="RG*"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/clienteid"
+        app:layout_constraintStart_toStartOf="@id/cliente_imagem"
+        app:layout_constraintTop_toBottomOf="@id/cliente_idade_id" />
+
+    <EditText
+        android:id="@+id/cliente_cpf_id"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:textAlignment="center"
+        android:maxLength="11"
+        android:hint="CPF*"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/clienteid"
+        app:layout_constraintStart_toStartOf="@id/cliente_imagem"
+        app:layout_constraintTop_toBottomOf="@id/cliente_rg_id" />
+
+    <EditText
+        android:id="@+id/cliente_cnpj_id"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:textAlignment="center"
+        android:maxLength="14"
+        android:hint="CNPJ"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/clienteid"
+        app:layout_constraintStart_toStartOf="@id/cliente_imagem"
+        app:layout_constraintTop_toBottomOf="@id/cliente_cpf_id" />
+
+    <EditText
+        android:id="@+id/cliente_cnh_anos_id"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:textAlignment="center"
+        android:maxLength="2"
+        android:hint="CNH_ANOS*"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/clienteid"
+        app:layout_constraintStart_toStartOf="@id/cliente_imagem"
+        app:layout_constraintTop_toBottomOf="@id/cliente_cnpj_id" />
+
+    <Spinner
+        android:id="@+id/cliente_sexo_id"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/fundo_caixa_texto"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@id/clienteid"
+        app:layout_constraintStart_toStartOf="@id/cliente_imagem"
+        app:layout_constraintTop_toBottomOf="@id/cliente_cnh_anos_id" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Daniel Auto Seguro</string>
+    <string name="title_activity_daniel_auto_seguro">DanielAutoSeguroActivity</string>
+    <string name="app_detalhes">Sobre Daniel Auto Seguro</string>
+    <string name="sobreAppid">   Nos últimos anos vem ocorrendo um notável aumento na utilização de dispositivos móveis, que fazem uso da tecnologia de comunicação sem fio, em especial dos telefones celulares. Tais aparelhos apesar do poder computacional limitado, a cada momento possuem uma nova forma, tamanho, aumento na capacidade de processamento, além de novos aplicativos agregados.
+        \n\n   O desenvolvimento de aplicativos para celulares vem tornando-se cada vez mais frequente nas empresas especializadas em produção de software. Contudo, esses sistemas não devem funcionar de maneira isolada. Entretanto, ignorar o fato de tais aparelhos serem inerentemente objetos de comunicação é subestimar o potencial deste artefato.
+        \n\n   Os celulares começaram a adquirir novas características, deixando de servir simplesmente para telefonia, ou seja, a mera transmissão de voz está perdendo o espaço para transmissão de dados. Hoje a tecnologia digital nos alcança onde quer que estejamos, estamos todos conectados.
+        \n\n   O produto consiste em um aplicativo mobile onde um usuário preenche um formulário online, em seguida enviaremos seu perfil preenchido aos nossos corretores, estes irão cotar seu seguro em varias companhias do mercado e vão te apresentar o orçamento como solicitado.
+        \n\n   É possível gerenciar os produtos, ter um histórico de todas as vendas realizadas, assim como o perfil dos consumidores para futuras ações de marketing especializadas.</string>
+    <string name="texto_validaco">Validaçao</string>
+    <string name="validacaoSMS">Voce recebeu um SMS para validaçáo do seu número, digite o código de validaçáo abaixo</string>
+    <string name="nome">Digite seu número</string>
+</resources>

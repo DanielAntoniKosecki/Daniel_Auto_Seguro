@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "797460502238",
+    "firebase_url": "https://danielautoseguro.firebaseio.com",
+    "project_id": "danielautoseguro",
+    "storage_bucket": "danielautoseguro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797460502238:android:b313a0d7a97ce0b6",
+        "android_client_info": {
+          "package_name": "danielautoseguro.cursoandroid.com.danielautoseguro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797460502238-pcigb8b4l71krl3t1qcih082sosiapo4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "danielautoseguro.cursoandroid.com.danielautoseguro",
+            "certificate_hash": "7fa2e55c9184908be911648cf4e4b17b79fdae17"
+          }
+        },
+        {
+          "client_id": "797460502238-onsaobuh58lual953egeh2nkq23daab7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLFDqSbPoV5dXXj2UutJKlgmeZldbCMWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797460502238-onsaobuh58lual953egeh2nkq23daab7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
